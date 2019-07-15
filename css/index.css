@@ -16,7 +16,7 @@ clear:both;
 header {
     color: #37383b;
 background-image: url('img/landscape2.png') no-repeat center top / cover;
-
+background-color: #d3d9eb;
 
 height: 500px;
 padding-bottom: 160px;
@@ -259,7 +259,7 @@ float: left;
     }
 
     input[type=text], select, textarea {
-  width: 40%;
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
