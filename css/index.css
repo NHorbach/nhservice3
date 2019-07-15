@@ -14,8 +14,8 @@ clear:both;
 }
 
 header {
-    color: #37383b; 
-background: url('../img/landscape2.png') no-repeat center top / cover;
+    color: #37383b;
+background-image: url('../img/landscape2.png') no-repeat center top / cover;
 
 background-color: #d3d9eb;
 height: 500px;
@@ -32,21 +32,14 @@ nav {
     margin:0;
 color: #37383b;
 font-size: 1em;
-display:block; 
+display:block;
 }
 
-header h1 {
-color: #17a67d; 
-margin-top:250;
-padding:70;
-float: center;
-
-}
 .container {
 
     width: 800px;
     border: 3px;
-    margin: 0 auto:
+    margin: 0 auto;
 }
 
 .logo {
@@ -58,10 +51,11 @@ float: center;
   width: 180px;
 }
 
-.menu p {
+.menu li {
     float: left;
     display: block;
     margin-right: 41px;
+
 }
 
 .menu a {
@@ -78,10 +72,233 @@ header button {
     border-color: transparent;
     border-style: solid;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 80%;
     top: 0;
     left: 0;
     -webkit-transition: inherit;
     transition: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
+header h1 {
+font-size: 35px;
+color: rgb(209, 15, 15);
+text-transform: uppercase;
+text-align: center;
+margin:15px;
+margin-top:80px;
+padding:30px;
+float: left;
+}
+.strangths-item  img {
+    width: 25%;
+    padding: 10px;
+    float: left;
+
+
+}
+
+.strangths-item {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+    font-size: 20px;
+}
+
+.title h2{
+    color: #777777;
+	text-align: center;
+	font-size: 22px;
+	margin-top: 5;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.column {
+  float: left;
+  width: 170px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto;
+  }
+
+ .column last-child {
+	            float: right;
+                }
+.column img {
+    width: 10em;
+    padding: 10px;
+    float: left;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.column li {
+    padding: 0;
+    color: rgb(48, 47, 46);
+    text-align: left;
+    font-size: 14px;
+    }
+
+    .column h3 {
+ display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+  font-size: 20px;
+    }
+
+.container h2 {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 10em;
+}
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+  }
+}
+.img_size {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 15em;
+
+}
+
+.row .column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.team img {
+    width: 40%;
+    padding: 10px;
+    float: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+.wp_item {
+  float: left;
+  width: 25%;
+}
+
+
+.wp:after {
+  content: "";
+  display: table;
+   clear: both;
+}
+
+
+@media screen and (max-width: 800px) {
+  .wp_item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wp_item {
+    width: 100%;
+  }
+}
+
+.wp_item p {
+    padding: 0;
+    color: rgb(48, 47, 46);
+    text-align: left;
+    font-size: 14px;
+    }
+
+    .wp_item h3 {
+ display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+  font-size: 20px;
+    }
+
+    input[type=text], select, textarea {
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #d64d0e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #d64d0e;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.team p {
+    padding: 0;
+    color: rgb(48, 47, 46);
+    text-align: left;
+    font-size: 14px;
+    }
+
+    .team h2 {
+ display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+  font-size: 20px;
+    }
